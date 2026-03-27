@@ -60,7 +60,7 @@ export function Nav() {
           className="hidden md:inline-flex px-5 py-2 rounded text-sm font-semibold transition-opacity hover:opacity-90"
           style={{ background: "#C8956C", color: "#1a1510" }}
         >
-          Get a Free Quote
+          Get started
         </Link>
 
         {/* Mobile hamburger */}
@@ -101,7 +101,7 @@ export function Nav() {
               className="block w-full text-center px-5 py-2.5 rounded text-sm font-semibold"
               style={{ background: "#C8956C", color: "#1a1510" }}
             >
-              Get a Free Quote
+              Get started
             </Link>
           </div>
         </div>

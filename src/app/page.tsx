@@ -13,7 +13,7 @@ const services = [
     icon: Layers,
     title: "Vinyl Application",
     description:
-      "Professional vinyl graphics, vehicle wraps, and window decals applied with precision for a polished, long-lasting finish.",
+      "Professional vinyl graphics and window decals applied with precision for a polished, long-lasting finish.",
   },
   {
     icon: Zap,
@@ -62,7 +62,7 @@ export default function Home() {
                 className="px-6 py-3 rounded font-semibold text-sm transition-opacity hover:opacity-90 text-center"
                 style={{ background: "#C8956C", color: "#1a1510" }}
               >
-                Get a Free Quote
+                Get Started
               </Link>
               <Link
                 href="/our-work"
@@ -233,7 +233,7 @@ export default function Home() {
             className="px-8 py-3 rounded font-semibold text-base transition-opacity hover:opacity-90"
             style={{ background: "#C8956C", color: "#1a1510" }}
           >
-            Get a Free Quote
+            Get Started
           </Link>
         </div>
       </section>
