@@ -11,8 +11,8 @@ export async function POST(req: Request) {
   }
 
   const { error } = await resend.emails.send({
-    from: "True Brew Contact Form <onboarding@resend.dev>",
-    to: "hello@squatch.in",
+    from: "True Brew Contact Form <noreply@truebrewdesignstudio.com>",
+    to: "truebrewdesignstudio@gmail.com",
     replyTo: email,
     subject: `New Inquiry from ${name} — True Brew`,
     html: `
